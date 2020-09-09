@@ -8,7 +8,6 @@ Follow the instructions line-by-line.
 ==========
 
 
-
 ==========
 1. Open Terminal.  Type:
 
@@ -17,7 +16,7 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
-
+Desktop Documents Downloads Movies Pictures Folder 1 Folder 2 Textfile.txt
 
 ==========
 2a. Type: 
@@ -27,19 +26,19 @@ $ ls D<TAB>
 What happens?  Describe it below.
 ----------
 
-
+Documents and Download appears
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
 
-
+/Documents /Downloads 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
 
-
+/Document.Doc
 
 ==========
 3.  Type:
@@ -49,7 +48,7 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+/Document.doc
 
 ==========
 4.  Type:
@@ -59,6 +58,7 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
+Cannot access Documents
 
 
 ==========
@@ -69,7 +69,7 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
-
+BASH:syntax error
 
 ==========
 6.  Type:
@@ -79,7 +79,7 @@ What command was repeated?
 What command was repeated?
 ----------
 
-
+BASH: Syntax error
 
 ==========
 7.  Type:
@@ -89,7 +89,7 @@ $ ls /b<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
-
+no such file exists
 
 ==========
 8.  Type:
@@ -99,37 +99,37 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+does not exist
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+Up and enter
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+ls and pwd
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
-
+Tab
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
+ls
 
 ==========
 14.  Type:
@@ -139,7 +139,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
+Command does not exist: did you mean ? (shows various other commands examples including fox and fio)
 
 ==========
 15.  Type:
@@ -149,7 +149,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+same as foo
 
 ==========
 16.  In the following line....
@@ -158,3 +158,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+ls-command, ls-flag, argument- -a desktop , prompt-output

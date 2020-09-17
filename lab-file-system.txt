@@ -31,7 +31,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
+/home/undying117/mtec1003
 
 ==========
 5. Type:
@@ -42,6 +42,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
+animals folder is formed with the rest with folders like music and pictures
 
 
 ==========
@@ -53,7 +54,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+makes food folder with the rest
 
 ==========
 7. Type:
@@ -64,6 +65,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
+foo bar baz and qux is made
 
 
 ==========
@@ -75,6 +77,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+I am in the foo/bar/baz/quz file
 
 
 ==========
@@ -87,7 +90,7 @@ Copy and paste the output below.
 ----------
 
 
-
+back in home/undying117
 ==========
 10. Type:
 
@@ -97,7 +100,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+back in the foo file with bar output
  
 ==========
 11. Type:
@@ -108,7 +111,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/
 
 ==========
 12. Type:
@@ -120,6 +123,7 @@ $ ls -l
 Copy and paste the first two lines from the output into the space below.
 ----------
 
+rmdir is not found
 
 
 ==========
@@ -131,7 +135,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/home/undying117
 
 ==========
 14. Type:
@@ -142,7 +146,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/mnt
 
 ==========
 15. Type:
@@ -153,7 +157,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/mnt
 
 ==========
 15. Type:
@@ -164,12 +168,14 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
+mtec1003
 
 
 ==========
-16a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
+16a. Make sure you're back in your mtec1003, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
+ran ls and pwd and still in the mtecfile
 
 
 ==========
@@ -193,7 +199,7 @@ lemon
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
 
-
+mkdir -p pineapple/orange/strawberry/lemon
 
 ==========
 18. Make another directory called aardvark.  
@@ -201,7 +207,7 @@ Use only one command to make all of these new directories.  Write what command y
 Write the command you used to create the directory below:
 ----------
 
-
+mkdir aardvark
 
 ==========
 19. List the files and directories in the current directory using the long format.  
@@ -209,7 +215,7 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
+2000
 
 ==========
 20. Make 3 directories nested within each other:
@@ -221,7 +227,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+mkdir -p foo/bar/baz
 
 ==========
 21. Change your directory so that you're in the inner most directory (baz)
@@ -229,51 +235,52 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd
 
 ==========
 22. Change your directory so that you're two directories up (foo)
 
 What command did you use?
 ----------
-
+cd ls 
 
 ==========
 23. What command is used to delete empty directories?
 ----------
 
-
+rmdir
 
 ==========
 24. What command is used to print out your current working directory?
 ----------
 
-
+pwd
 
 ==========
 25. What flag do I pass to ls to print out all files?
 ----------
 
-
+-
 
 ==========
 26. What's the shortcut for home directory?
 ----------
 
-
+cd ..
 
 ==========
 27. What's a pathname?
 ----------
 
-
+location of a directory
 
 ==========
 28. What's a directory?
 ----------
 
-
+file to store
 
 ==========
 29. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+location from the root folder

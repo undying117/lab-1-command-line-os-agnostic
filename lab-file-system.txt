@@ -266,7 +266,7 @@ pwd
 26. What's the shortcut for home directory?
 ----------
 
-cd ..
+cd~
 
 ==========
 27. What's a pathname?
